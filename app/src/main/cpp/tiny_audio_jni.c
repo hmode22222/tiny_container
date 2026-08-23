@@ -306,7 +306,7 @@ static void *sock_func(void *arg)
 /*  JNI                                                              */
 /* ================================================================= */
 JNIEXPORT jboolean JNICALL
-Java_com_fct_tc4_TinyAudio_nativeStart(JNIEnv *env, jclass cls, jstring sp)
+Java_com_andlinux_io_TinyAudio_nativeStart(JNIEnv *env, jclass cls, jstring sp)
 {
     (void)cls;
     const char *p = (*env)->GetStringUTFChars(env, sp, NULL);
@@ -329,7 +329,7 @@ Java_com_fct_tc4_TinyAudio_nativeStart(JNIEnv *env, jclass cls, jstring sp)
 }
 
 JNIEXPORT void JNICALL
-Java_com_fct_tc4_TinyAudio_nativeStop(JNIEnv *env, jclass cls)
+Java_com_andlinux_io_TinyAudio_nativeStop(JNIEnv *env, jclass cls)
 {
     (void)env; (void)cls;
     atomic_store_explicit(&g.running, false, memory_order_release);

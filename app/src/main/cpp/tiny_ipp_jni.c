@@ -1981,7 +1981,7 @@ static void *accept_func(void *arg) {
 /* ================================================================= */
 
 JNIEXPORT jboolean JNICALL
-Java_com_fct_tc4_TinyIpp_nativeStart(JNIEnv *env, jclass cls, jstring socketPath)
+Java_com_andlinux_io_TinyIpp_nativeStart(JNIEnv *env, jclass cls, jstring socketPath)
 {
     (void)cls;
     const char *path = (*env)->GetStringUTFChars(env, socketPath, NULL);
@@ -2019,7 +2019,7 @@ Java_com_fct_tc4_TinyIpp_nativeStart(JNIEnv *env, jclass cls, jstring socketPath
 
     /* ----- cache JNI refs ----- */
     {
-        jclass local = (*env)->FindClass(env, "com/fct/tc4/TinyIpp");
+        jclass local = (*env)->FindClass(env, "com/andlinux/io/TinyIpp");
         g_srv.cls_tiny_ipp = (*env)->NewGlobalRef(env, local);
         (*env)->DeleteLocalRef(env, local);
     }
@@ -2086,7 +2086,7 @@ fail:
 }
 
 JNIEXPORT void JNICALL
-Java_com_fct_tc4_TinyIpp_nativeStop(JNIEnv *env, jclass cls)
+Java_com_andlinux_io_TinyIpp_nativeStop(JNIEnv *env, jclass cls)
 {
     (void)env; (void)cls;
     LOGI("nativeStop");
@@ -2137,7 +2137,7 @@ Java_com_fct_tc4_TinyIpp_nativeStop(JNIEnv *env, jclass cls)
  *  finished (printed, canceled or failed) — mark the job completed and
  *  remove the spool file. */
 JNIEXPORT void JNICALL
-Java_com_fct_tc4_TinyIpp_nativeJobFinished(JNIEnv *env, jclass cls, jint jobId)
+Java_com_andlinux_io_TinyIpp_nativeJobFinished(JNIEnv *env, jclass cls, jint jobId)
 {
     (void)env; (void)cls;
     pthread_mutex_lock(&g_jobs_lock);

@@ -418,7 +418,7 @@ static void *socket_thread_func(void *arg)
 /* ================================================================= */
 
 JNIEXPORT jboolean JNICALL
-Java_com_fct_tc4_TinyMicrophone_nativeStart(JNIEnv *env, jclass cls,
+Java_com_andlinux_io_TinyMicrophone_nativeStart(JNIEnv *env, jclass cls,
                                             jstring socketPath)
 {
     (void)cls;
@@ -464,7 +464,7 @@ Java_com_fct_tc4_TinyMicrophone_nativeStart(JNIEnv *env, jclass cls,
 }
 
 JNIEXPORT void JNICALL
-Java_com_fct_tc4_TinyMicrophone_nativeStop(JNIEnv *env, jclass cls)
+Java_com_andlinux_io_TinyMicrophone_nativeStop(JNIEnv *env, jclass cls)
 {
 (void)env; (void)cls;
 LOGI("nativeStop");

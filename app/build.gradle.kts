@@ -20,13 +20,13 @@ plugins {
 }
 
 android {
-    namespace = "com.fct.tc4"
+    namespace = "com.andlinux.io"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.fct.tc4"
+        applicationId = "com.andlinux.io"
         minSdk = 28
         targetSdk = 37
         versionCode = 4

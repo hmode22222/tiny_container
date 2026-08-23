@@ -126,7 +126,7 @@ static void *sock_func(void *arg)
 /* ================================================================= */
 
 JNIEXPORT jboolean JNICALL
-Java_com_fct_tc4_TinyStorage_nativeStart(JNIEnv *env, jclass cls, jstring socketPath)
+Java_com_andlinux_io_TinyStorage_nativeStart(JNIEnv *env, jclass cls, jstring socketPath)
 {
     (void)cls;
     const char *path = (*env)->GetStringUTFChars(env, socketPath, NULL);
@@ -156,7 +156,7 @@ Java_com_fct_tc4_TinyStorage_nativeStart(JNIEnv *env, jclass cls, jstring socket
 }
 
 JNIEXPORT void JNICALL
-Java_com_fct_tc4_TinyStorage_nativeStop(JNIEnv *env, jclass cls)
+Java_com_andlinux_io_TinyStorage_nativeStop(JNIEnv *env, jclass cls)
 {
     (void)env; (void)cls;
     LOGI("nativeStop");
@@ -175,7 +175,7 @@ Java_com_fct_tc4_TinyStorage_nativeStop(JNIEnv *env, jclass cls)
 }
 
 JNIEXPORT jboolean JNICALL
-Java_com_fct_tc4_TinyStorage_nativeSend(
+Java_com_andlinux_io_TinyStorage_nativeSend(
     JNIEnv *env, jclass cls,
     jbyte action, jstring path, jstring name)
 {

@@ -32,7 +32,7 @@
 
     </eightbitlab.com.blurview.BlurTarget>
 
-    <com.fct.tc4.ui.misc.WipeLayout
+    <com.andlinux.io.ui.misc.WipeLayout
         android:id="@+id/wiper"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -46,6 +46,6 @@
             android:id="@+id/terminal_overlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-    </com.fct.tc4.ui.misc.WipeLayout>
+    </com.andlinux.io.ui.misc.WipeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
