@@ -1,5 +1,5 @@
 <resources>
-    <string name="tc4_app_name">Tiny Container</string>
+    <string name="tc4_app_name">AndLinux</string>
 
     <!-- ==================== Common Buttons ==================== -->
     <string name="tc4_btn_ok">OK</string>
@@ -110,15 +110,15 @@
     <string name="tc4_help_source_code_title">Source Code Repository</string>
     <string name="tc4_help_source_code_desc">See every line of code. Get docs, give feedback and more.</string>
     <string name="tc4_help_releases_title">Release Page</string>
-    <string name="tc4_help_releases_desc">Get the latest version of Tiny Container</string>
+    <string name="tc4_help_releases_desc">Get the latest version of AndLinux</string>
     <string name="tc4_help_oss_title">Open Source Libraries</string>
     <string name="tc4_help_oss_desc">Thanks to these libraries for making development simpler.</string>
     <string name="tc4_help_license_title">License</string>
     <string name="tc4_help_license_desc">PRoot — an essential component for running Linux — is licensed under GPL, so I have to open source my code too :D</string>
     <string name="tc4_help_wechat_title">WeChat Official Account: 装机宝典</string>
-    <string name="tc4_help_wechat_desc">I may post some Tiny Container tutorials here. If you cannot access GitHub, this might help.</string>
+    <string name="tc4_help_wechat_desc">I may post some AndLinux tutorials here. If you cannot access GitHub, this might help.</string>
     <string name="tc4_help_bilibili_title">Caten\'s Bilibili</string>
-    <string name="tc4_help_bilibili_desc">I may post videos about Tiny Container, and also other stuff, like Plants vs. Zombies :P</string>
+    <string name="tc4_help_bilibili_desc">I may post videos about AndLinux, and also other stuff, like Plants vs. Zombies :P</string>
     <string name="tc4_help_spark_store_title">Link: Spark App Store</string>
     <string name="tc4_help_spark_store_desc">A single spark can start a prairie fire</string>
     <string name="tc4_help_gxde_title">Link: GXDE OS</string>
@@ -199,7 +199,7 @@
 
     <!-- ==================== License Page ==================== -->
     <string name="tc4_license_title">GNU General Public License v3.0</string>
-    <string name="tc4_license_description">Tiny Container is open source under the GPLv3 license</string>
+    <string name="tc4_license_description">AndLinux is open source under the GPLv3 license</string>
 
     <!-- ==================== Open Source Libs Page ==================== -->
     <string name="tc4_oss_title">Open Source Libraries</string>
